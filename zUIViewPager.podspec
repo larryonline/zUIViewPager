@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "zUIViewPager"
   s.version      = "0.0.1"
-  s.summary      = "inspired from ICViewPager"
+  s.summary      = "Android ViewPager for iOS"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,6 +25,14 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
+inspired from ICViewPager (https://github.com/iltercengiz/ICViewPager)
+
+platform: >= iOS 7.0
+
+improve list
+  - customize width for each tab
+  - customize appearance when tab state changed.
+  - fix bug: ICViewPager can not be child view controller for other view controller. it will cause ICViewPager get wrong frame.
                    DESC
 
   s.homepage     = "https://github.com/larryonline/zUIViewPager"
@@ -79,7 +87,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/larryonline/zUIViewPager.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/larryonline/zUIViewPager.git" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -129,7 +137,7 @@ Pod::Spec.new do |s|
   #  where they will only apply to your library. If you depend on other Podspecs
   #  you can include multiple dependencies to ensure it works.
 
-   Rs.requires_arc = true
+  s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
