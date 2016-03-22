@@ -58,14 +58,14 @@
 @end
 
 #pragma mark - TabView
-@class TabView;
+@class zUIViewPagerTabView;
 
-@interface TabView : UIView
+@interface zUIViewPagerTabView : UIView
 @property (nonatomic, getter = isSelected) BOOL selected;
 @property (nonatomic) UIColor *indicatorColor;
 @end
 
-@implementation TabView
+@implementation zUIViewPagerTabView
 - (id)initWithFrame:(CGRect)frame {
     if (self = [super initWithFrame:frame]) {
         self.backgroundColor = [UIColor clearColor];
@@ -192,7 +192,7 @@
 
 - (void)setActiveTabIndex:(NSUInteger)activeTabIndex {
     
-    TabView *activeTabView;
+    zUIViewPagerTabView *activeTabView;
     
     // Set to-be-inactive tab unselected
     activeTabView = [self tabViewAtIndex:self.activeTabIndex];
@@ -505,7 +505,7 @@
 
 
 
--(TabView *)tabViewAtIndex:(NSUInteger)index{
+-(zUIViewPagerTabView *)tabViewAtIndex:(NSUInteger)index{
     if(index >= self.tabCount){
         return nil;
     }
@@ -523,7 +523,7 @@
             tabWidth = [self.dataSource viewPagerController:self widthForTabViewAtIndex:index];
         }
         
-        TabView *tabView = [[TabView alloc] initWithFrame:CGRectMake(0, 0, tabWidth, [self.tabHeight floatValue])];
+        zUIViewPagerTabView *tabView = [[zUIViewPagerTabView alloc] initWithFrame:CGRectMake(0, 0, tabWidth, [self.tabHeight floatValue])];
         [tabView addSubview:tabViewContent];
         [tabView setClipsToBounds:YES];
         
