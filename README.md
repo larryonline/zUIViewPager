@@ -1,8 +1,8 @@
 # zUIViewPager
 
-inspired from [ICViewPager][https://github.com/iltercengiz/ICViewPager]
+inspired from **ICViewPager** (https://github.com/iltercengiz/ICViewPager)
 
->= iOS 7.0
+platform: >= iOS 7.0
 
 improve list
   - customize width for each tab 

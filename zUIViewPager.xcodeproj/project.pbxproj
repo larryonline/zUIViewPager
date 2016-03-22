@@ -70,12 +70,12 @@
 		46C3DBC91CA111A600343D90 = {
 			isa = PBXGroup;
 			children = (
-				46235D081CA143DC00AEA45E /* zUIViewPager.podspec */,
 				46C3DBFA1CA1121400343D90 /* zUIViewPager */,
 				46C3DBD41CA111A600343D90 /* zUIViewPagerDemo */,
 				46C3DBEE1CA111A600343D90 /* zUIViewPagerUITests */,
 				46C3DBD31CA111A600343D90 /* Products */,
 				46235D061CA1424E00AEA45E /* README.md */,
+				46235D081CA143DC00AEA45E /* zUIViewPager.podspec */,
 			);
 			sourceTree = "<group>";
 		};
