@@ -7,14 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		46235D001CA1363600AEA45E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46235CFE1CA1363600AEA45E /* Main.storyboard */; };
+		46235D031CA1364F00AEA45E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46235D011CA1364F00AEA45E /* LaunchScreen.storyboard */; };
+		46235D071CA1424E00AEA45E /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 46235D061CA1424E00AEA45E /* README.md */; };
+		46235D091CA143DC00AEA45E /* zUIViewPager.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 46235D081CA143DC00AEA45E /* zUIViewPager.podspec */; };
 		46C3DBD71CA111A600343D90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C3DBD61CA111A600343D90 /* main.m */; };
 		46C3DBDA1CA111A600343D90 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C3DBD91CA111A600343D90 /* AppDelegate.m */; };
 		46C3DBDD1CA111A600343D90 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C3DBDC1CA111A600343D90 /* ViewController.m */; };
-		46C3DBE01CA111A600343D90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46C3DBDE1CA111A600343D90 /* Main.storyboard */; };
-		46C3DBE21CA111A600343D90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46C3DBE11CA111A600343D90 /* Assets.xcassets */; };
-		46C3DBE51CA111A600343D90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46C3DBE31CA111A600343D90 /* LaunchScreen.storyboard */; };
 		46C3DBF01CA111A600343D90 /* zUIViewPagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C3DBEF1CA111A600343D90 /* zUIViewPagerUITests.m */; };
 		46C3DBFD1CA1124900343D90 /* zUIViewPagerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46C3DBFC1CA1124900343D90 /* zUIViewPagerController.m */; };
+		46C3DC021CA135AC00343D90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46C3DBE11CA111A600343D90 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,15 +30,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		46235CFF1CA1363600AEA45E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = zUIViewPagerDemo/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
+		46235D021CA1364F00AEA45E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = zUIViewPagerDemo/Base.lproj/LaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
+		46235D061CA1424E00AEA45E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		46235D081CA143DC00AEA45E /* zUIViewPager.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = zUIViewPager.podspec; sourceTree = "<group>"; };
 		46C3DBD21CA111A600343D90 /* zUIViewPager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zUIViewPager.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		46C3DBD61CA111A600343D90 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		46C3DBD61CA111A600343D90 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ../zUIViewPagerDemo/main.m; sourceTree = "<group>"; };
 		46C3DBD81CA111A600343D90 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../zUIViewPagerDemo/AppDelegate.h; sourceTree = "<group>"; };
 		46C3DBD91CA111A600343D90 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../zUIViewPagerDemo/AppDelegate.m; sourceTree = "<group>"; };
 		46C3DBDB1CA111A600343D90 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../zUIViewPagerDemo/ViewController.h; sourceTree = "<group>"; };
 		46C3DBDC1CA111A600343D90 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../zUIViewPagerDemo/ViewController.m; sourceTree = "<group>"; };
-		46C3DBDF1CA111A600343D90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		46C3DBE11CA111A600343D90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../zUIViewPagerDemo/Assets.xcassets; sourceTree = "<group>"; };
-		46C3DBE41CA111A600343D90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		46C3DBE61CA111A600343D90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../zUIViewPagerDemo/Info.plist; sourceTree = "<group>"; };
 		46C3DBEB1CA111A600343D90 /* zUIViewPagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zUIViewPagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		46C3DBEF1CA111A600343D90 /* zUIViewPagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zUIViewPagerUITests.m; sourceTree = "<group>"; };
@@ -66,10 +70,12 @@
 		46C3DBC91CA111A600343D90 = {
 			isa = PBXGroup;
 			children = (
+				46235D081CA143DC00AEA45E /* zUIViewPager.podspec */,
 				46C3DBFA1CA1121400343D90 /* zUIViewPager */,
 				46C3DBD41CA111A600343D90 /* zUIViewPagerDemo */,
 				46C3DBEE1CA111A600343D90 /* zUIViewPagerUITests */,
 				46C3DBD31CA111A600343D90 /* Products */,
+				46235D061CA1424E00AEA45E /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,13 +91,13 @@
 		46C3DBD41CA111A600343D90 /* zUIViewPagerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				46235D011CA1364F00AEA45E /* LaunchScreen.storyboard */,
+				46235CFE1CA1363600AEA45E /* Main.storyboard */,
 				46C3DBD81CA111A600343D90 /* AppDelegate.h */,
 				46C3DBD91CA111A600343D90 /* AppDelegate.m */,
 				46C3DBDB1CA111A600343D90 /* ViewController.h */,
 				46C3DBDC1CA111A600343D90 /* ViewController.m */,
-				46C3DBDE1CA111A600343D90 /* Main.storyboard */,
 				46C3DBE11CA111A600343D90 /* Assets.xcassets */,
-				46C3DBE31CA111A600343D90 /* LaunchScreen.storyboard */,
 				46C3DBE61CA111A600343D90 /* Info.plist */,
 				46C3DBD51CA111A600343D90 /* Supporting Files */,
 			);
@@ -169,6 +175,9 @@
 		46C3DBCA1CA111A600343D90 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					New,
+				);
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = zhennan;
 				TargetAttributes = {
@@ -205,9 +214,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46C3DBE51CA111A600343D90 /* LaunchScreen.storyboard in Resources */,
-				46C3DBE21CA111A600343D90 /* Assets.xcassets in Resources */,
-				46C3DBE01CA111A600343D90 /* Main.storyboard in Resources */,
+				46235D031CA1364F00AEA45E /* LaunchScreen.storyboard in Resources */,
+				46C3DC021CA135AC00343D90 /* Assets.xcassets in Resources */,
+				46235D091CA143DC00AEA45E /* zUIViewPager.podspec in Resources */,
+				46235D001CA1363600AEA45E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,6 +237,7 @@
 			files = (
 				46C3DBDD1CA111A600343D90 /* ViewController.m in Sources */,
 				46C3DBFD1CA1124900343D90 /* zUIViewPagerController.m in Sources */,
+				46235D071CA1424E00AEA45E /* README.md in Sources */,
 				46C3DBDA1CA111A600343D90 /* AppDelegate.m in Sources */,
 				46C3DBD71CA111A600343D90 /* main.m in Sources */,
 			);
@@ -251,22 +262,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		46C3DBDE1CA111A600343D90 /* Main.storyboard */ = {
+		46235CFE1CA1363600AEA45E /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				46C3DBDF1CA111A600343D90 /* Base */,
+				46235CFF1CA1363600AEA45E /* Base */,
 			);
 			name = Main.storyboard;
-			path = ../zUIViewPagerDemo;
 			sourceTree = "<group>";
 		};
-		46C3DBE31CA111A600343D90 /* LaunchScreen.storyboard */ = {
+		46235D011CA1364F00AEA45E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				46C3DBE41CA111A600343D90 /* Base */,
+				46235D021CA1364F00AEA45E /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			path = ../zUIViewPagerDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -359,6 +368,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = zUIViewPagerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.zhennan.zUIViewPager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -370,6 +380,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = zUIViewPagerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.zhennan.zUIViewPager;
 				PRODUCT_NAME = "$(TARGET_NAME)";

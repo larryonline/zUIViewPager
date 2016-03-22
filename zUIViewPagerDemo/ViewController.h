@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "zUIViewPagerController.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : zUIViewPagerController
 
 
 @end
