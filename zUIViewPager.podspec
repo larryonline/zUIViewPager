@@ -87,7 +87,7 @@ improve list
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/larryonline/zUIViewPager.git" }
+  s.source       = { :git => "https://github.com/larryonline/zUIViewPager.git", :tag => "0.0.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
