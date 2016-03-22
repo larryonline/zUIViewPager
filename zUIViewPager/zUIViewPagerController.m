@@ -340,12 +340,11 @@
         [self.dataSource viewPagerController:self updateTabAppearence:tabContentView atIndex:i];
         
         [tabContentView sizeToFit];
-        tabContentView.center = tabView.center;
+        tabContentView.center = CGPointMake(tabView.frame.size.width / 2, tabView.frame.size.height / 2);
         
         
         CGRect frame = tabView.frame;
         frame.origin.x = contentSizeWidth;
-        frame.size.width = CGRectGetWidth([tabContentView frame]);
         tabView.frame = frame;
         
         contentSizeWidth += CGRectGetWidth(tabView.frame);
